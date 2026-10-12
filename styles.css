@@ -1,0 +1,71 @@
+.paginación {
+    text-align: center;
+    padding: 50px;
+}
+
+span {
+    font-family: cursive;
+    margin: 10px;
+    padding: 10px;
+}
+
+#selector {
+    padding: 5px 10px;
+    border-radius: 100px;
+}
+
+body {
+    background-color: rgb(195, 160, 228);
+}
+
+.comprar {
+    background-color: red;
+    color: white;
+    border-color: brown;
+    border-radius: 0%;
+    font-family: cursive;
+}
+
+.productos {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-family: cursive;;
+}
+
+header {
+    background-color: rgb(116, 101, 202);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid black
+}
+
+button {
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px 20px;
+}
+
+.item {
+    margin: 10px;
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    object-fit: cover;
+    object-position:initial;
+    
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(116, 101, 202);
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.pie_pagina {
+    justify-content: center;
+    margin: 5px 200px;
+}
